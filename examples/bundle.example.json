@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "name": "Reference: LineageOS 20 20251021 a64 Vanilla, locally audited build",
+  "profile": "dandelion-eea",
+  "os": "android-gsi",
+  "architecture": "a64",
+  "layout": "sar",
+  "audits": {
+    "stock_kernel_preserved": true,
+    "product_mount_removed": true,
+    "adb_authentication_enabled": true,
+    "filesystem_checked": true
+  },
+  "expected_properties": {
+    "ro.build.version.release": "13",
+    "ro.lineage.version": "20.0-20251021-UNOFFICIAL-a64_bvN"
+  },
+  "images": {
+    "boot": {
+      "path": "boot.img",
+      "sha256": "09322e420af90b8efbf37e13e00dd16fcea0501beb754c2053424fc54692046a"
+    },
+    "vbmeta": {
+      "path": "vbmeta.img",
+      "sha256": "ba0b788895fb89f332b9202f4b97469ebecb9614fe1dd3ea3511dc937b067b44"
+    },
+    "system": {
+      "path": "system.img",
+      "sha256": "b6618ba100bebea4a74e6b4756ede8edd23d59a1efa2f04cf3ffc7427332572c"
+    }
+  }
+}

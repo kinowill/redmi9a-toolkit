@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "ro.product.vendor.model": "M2006C3LG",
+    "ro.product.vendor.device": "dandelion",
+    "ro.vendor.build.version.incremental": "V12.0.17.0.QCDEUXM",
+    "ro.vendor.product.cpu.abilist": "armeabi-v7a,armeabi",
+    "ro.board.platform": "mt6765",
+    "ro.hardware": "mt6762",
+    "ro.treble.enabled": "true",
+    "ro.boot.flash.locked": "0",
+    "ro.build.version.release": "13",
+    "ro.build.version.security_patch": "2025-09-05",
+    "ro.vendor.build.security_patch": "2020-03-05",
+    "ro.lineage.version": "20.0-20251021-UNOFFICIAL-a64_bvN",
+    "ro.adb.secure": "1",
+    "sys.boot_completed": "1"
+  },
+  "battery_percent": 100,
+  "uname_machine": "armv8l",
+  "kernel_config": {
+    "CONFIG_ARM64": "y",
+    "CONFIG_64BIT": "y",
+    "CONFIG_ANDROID_BINDER_IPC_32BIT": "n"
+  },
+  "kernel_architecture": "aarch64",
+  "selinux": "Enforcing",
+  "root_verified": true,
+  "issues": [],
+  "software_checks_passed": true,
+  "hardware_tests": "Not performed by this command. Test cameras, audio, radios and sleep."
+}

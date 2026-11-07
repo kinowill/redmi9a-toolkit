@@ -1,0 +1,47 @@
+{
+  "profile": "dandelion-eea",
+  "os": "android-gsi",
+  "images": {
+    "boot": {
+      "format": "android_boot",
+      "bytes": 67108864,
+      "expanded_bytes": 67108864,
+      "sha256": "09322e420af90b8efbf37e13e00dd16fcea0501beb754c2053424fc54692046a"
+    },
+    "vbmeta": {
+      "format": "avb",
+      "bytes": 4096,
+      "expanded_bytes": 4096,
+      "sha256": "ba0b788895fb89f332b9202f4b97469ebecb9614fe1dd3ea3511dc937b067b44"
+    },
+    "system": {
+      "format": "ext4",
+      "bytes": 2147483648,
+      "expanded_bytes": 2147483648,
+      "sha256": "b6618ba100bebea4a74e6b4756ede8edd23d59a1efa2f04cf3ffc7427332572c"
+    }
+  },
+  "expected_properties": {
+    "ro.build.version.release": "13",
+    "ro.lineage.version": "20.0-20251021-UNOFFICIAL-a64_bvN"
+  },
+  "operator_audits_are_attestations": true,
+  "steps": [
+    "Read Android identity, vendor, ABI, battery, ADB authentication and SELinux",
+    "Enter bootloader; verify product, unlocked state, boot and vbmeta sizes",
+    "Enter fastbootd; verify product, logical system and current system capacity",
+    "Return to bootloader; recheck identity; flash boot and vbmeta",
+    "Return to fastbootd; recheck identity and capacity; flash system",
+    "Erase Android userdata/cache/metadata using fastboot -w; reboot",
+    "Authorize normal ADB on the phone, then run verify separately"
+  ],
+  "destructive": true,
+  "preserved": [
+    "preloader",
+    "RPMB",
+    "radio/calibration",
+    "vendor",
+    "product"
+  ],
+  "note": "Plan only. No phone command was executed. Hashes are not a safety audit."
+}
