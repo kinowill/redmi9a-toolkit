@@ -1,0 +1,24 @@
+{
+  "id": "dandelion-eea",
+  "label": "Redmi 9A M2006C3LG / dandelion / MIUI EEA V12.0.17.0.QCDEUXM vendor",
+  "product": "dandelion",
+  "properties": {
+    "ro.product.vendor.model": "M2006C3LG",
+    "ro.product.vendor.device": "dandelion",
+    "ro.vendor.build.version.incremental": "V12.0.17.0.QCDEUXM",
+    "ro.vendor.product.cpu.abilist": "armeabi-v7a,armeabi",
+    "ro.board.platform": "mt6765",
+    "ro.hardware": "mt6762",
+    "ro.treble.enabled": "true"
+  },
+  "architecture": "a64",
+  "layout": "sar",
+  "kernel_architecture": "aarch64",
+  "kernel_config": {"CONFIG_ARM64": "y", "CONFIG_64BIT": "y", "CONFIG_ANDROID_BINDER_IPC_32BIT": "n"},
+  "minimum_battery_percent": 50,
+  "boot_bytes": 67108864,
+  "vbmeta_bytes": 4096,
+  "maximum_system_bytes": 2281046016,
+  "allowed_image_formats": {"boot": "android_boot", "vbmeta": "avb", "system": "ext4"},
+  "status": "Manual reference procedure validated on one unit; new installer not hardware-tested"
+}

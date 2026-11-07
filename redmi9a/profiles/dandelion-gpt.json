@@ -1,0 +1,220 @@
+{
+  "hwcode": "0x766",
+  "partitions": [
+    {
+      "name": "boot_para",
+      "sector": 64,
+      "sectors": 2048
+    },
+    {
+      "name": "recovery",
+      "sector": 2112,
+      "sectors": 131072
+    },
+    {
+      "name": "para",
+      "sector": 133184,
+      "sectors": 1024
+    },
+    {
+      "name": "expdb",
+      "sector": 134208,
+      "sectors": 40960
+    },
+    {
+      "name": "gsort",
+      "sector": 175168,
+      "sectors": 32768
+    },
+    {
+      "name": "ffu",
+      "sector": 207936,
+      "sectors": 16384
+    },
+    {
+      "name": "cust",
+      "sector": 224320,
+      "sectors": 1703936
+    },
+    {
+      "name": "vbmeta_system",
+      "sector": 1928256,
+      "sectors": 16384
+    },
+    {
+      "name": "vbmeta_vendor",
+      "sector": 1944640,
+      "sectors": 16384
+    },
+    {
+      "name": "frp",
+      "sector": 1961024,
+      "sectors": 2048
+    },
+    {
+      "name": "nvcfg",
+      "sector": 1963072,
+      "sectors": 65536
+    },
+    {
+      "name": "nvdata",
+      "sector": 2028608,
+      "sectors": 131072
+    },
+    {
+      "name": "md_udc",
+      "sector": 2159680,
+      "sectors": 46288
+    },
+    {
+      "name": "metadata",
+      "sector": 2205968,
+      "sectors": 65536
+    },
+    {
+      "name": "protect1",
+      "sector": 2271504,
+      "sectors": 16384
+    },
+    {
+      "name": "protect2",
+      "sector": 2287888,
+      "sectors": 22256
+    },
+    {
+      "name": "seccfg",
+      "sector": 2310144,
+      "sectors": 16384
+    },
+    {
+      "name": "persist",
+      "sector": 2326528,
+      "sectors": 98304
+    },
+    {
+      "name": "sec1",
+      "sector": 2424832,
+      "sectors": 4096
+    },
+    {
+      "name": "proinfo",
+      "sector": 2428928,
+      "sectors": 6144
+    },
+    {
+      "name": "efuse",
+      "sector": 2435072,
+      "sectors": 1024
+    },
+    {
+      "name": "md1img",
+      "sector": 2436096,
+      "sectors": 204800
+    },
+    {
+      "name": "spmfw",
+      "sector": 2640896,
+      "sectors": 2048
+    },
+    {
+      "name": "scp1",
+      "sector": 2642944,
+      "sectors": 2048
+    },
+    {
+      "name": "scp2",
+      "sector": 2644992,
+      "sectors": 2048
+    },
+    {
+      "name": "sspm_1",
+      "sector": 2647040,
+      "sectors": 2048
+    },
+    {
+      "name": "sspm_2",
+      "sector": 2649088,
+      "sectors": 2048
+    },
+    {
+      "name": "gz1",
+      "sector": 2651136,
+      "sectors": 32768
+    },
+    {
+      "name": "gz2",
+      "sector": 2683904,
+      "sectors": 32768
+    },
+    {
+      "name": "nvram",
+      "sector": 2716672,
+      "sectors": 131072
+    },
+    {
+      "name": "lk",
+      "sector": 2847744,
+      "sectors": 4096
+    },
+    {
+      "name": "lk2",
+      "sector": 2851840,
+      "sectors": 4096
+    },
+    {
+      "name": "boot",
+      "sector": 2855936,
+      "sectors": 131072
+    },
+    {
+      "name": "logo",
+      "sector": 2987008,
+      "sectors": 16384
+    },
+    {
+      "name": "dtbo",
+      "sector": 3003392,
+      "sectors": 16384
+    },
+    {
+      "name": "tee1",
+      "sector": 3019776,
+      "sectors": 10240
+    },
+    {
+      "name": "tee2",
+      "sector": 3030016,
+      "sectors": 17408
+    },
+    {
+      "name": "super",
+      "sector": 3047424,
+      "sectors": 9437184
+    },
+    {
+      "name": "vbmeta",
+      "sector": 12484608,
+      "sectors": 16384
+    },
+    {
+      "name": "cache",
+      "sector": 12500992,
+      "sectors": 884736
+    },
+    {
+      "name": "userdata",
+      "sector": 13385728,
+      "sectors": 47564767
+    },
+    {
+      "name": "otp",
+      "sector": 60950495,
+      "sectors": 88064
+    },
+    {
+      "name": "flashinfo",
+      "sector": 61038559,
+      "sectors": 32768
+    }
+  ]
+}
