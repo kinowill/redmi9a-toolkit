@@ -90,3 +90,8 @@ Reste explicitement non réalisé : purge définitive des anciens fichiers
 (refus du contrôle automatique), essai matériel complet des nouveaux unlock/install,
 portages/autres profils et préparation automatique des images. La première
 version partageable est livrée ; aucune compatibilité universelle n'est annoncée.
+
+Archive du code public à la révision3012a2a, README et journal communautaire
+copiés également sur le téléphone et vérifiés par SHA256 : huit fichiers vérifiés
+au total. Les copies de transfert intermédiaires ont été retirées du répertoire
+de travail ; les anciens originaux restent récupérables dans la corbeille.
