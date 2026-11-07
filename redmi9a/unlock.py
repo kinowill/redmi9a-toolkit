@@ -105,6 +105,8 @@ def unlock_phone(
                 "Install the optional mtk dependencies in this Python environment."
             ) from exc
     work.mkdir(parents=True)
+    # Keep private MTK files out of Git even if the caller picks another work folder.
+    (work / ".gitignore").write_text("*\n", encoding="utf-8")
     request = {
         "repository": str(repository.resolve()),
         "preloader": str(preloader.resolve()),
