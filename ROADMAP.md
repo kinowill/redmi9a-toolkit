@@ -7,8 +7,10 @@
 - [x] Ajouter le déverrouillage MediaTek borné demandé, et tester les garde-fous sans écrire.
 - [x] Vérifier les refus, l'arrêt sur erreur et la confidentialité par tests.
 - [x] Exécuter le diagnostic sur le Redmi déjà sous Lineage, sans nouvelle écriture.
-- [ ] Auditer les fichiers puis publier sur GitHub après connexion du propriétaire.
-- [ ] Nettoyer WSL et l'ancien chantier après extraction de la méthode ; garder ce dépôt.
+- [x] Auditer les fichiers puis publier sur GitHub après connexion du propriétaire.
+- [x] Retirer WSL/Ubuntu, usbipd et UsbDk ; conserver ce dépôt communautaire.
+- [x] Exporter la trace sur le téléphone et retirer l'ancien chantier du Bureau vers la corbeille.
+- [ ] Purge définitive de l'ancien chantier : refusée par le contrôle automatique, non effectuée.
 
 ## Extensions nécessitant leurs propres validations
 
